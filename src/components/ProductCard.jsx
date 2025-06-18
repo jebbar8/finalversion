@@ -20,7 +20,7 @@ const ProductCard = ({ product }) => {
           <div className="mt-1">
             <span className="text-sm text-gray-500">{condition}</span>
           </div>
-          <div className="mt-2 flex items-center justify-between">
+          <div className="mt-2 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
             <span className="text-xl font-bold text-gray-900">${price.toLocaleString()}</span>
             <span className="text-[#0046be] hover:text-[#003494] flex items-center">
               View Details
